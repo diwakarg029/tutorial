@@ -1,0 +1,24 @@
+From 6e61b4b657af957ce3da203eddabf6652455cc7e Mon Sep 17 00:00:00 2001
+From: diwakarg029 <diwakar.g1@tcs.com>
+Date: Thu, 19 Jul 2018 11:55:07 +0530
+Subject: [PATCH] Added my_strcat function
+
+---
+ src/string.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/string.c b/src/string.c
+index 25a2ecf..faf7456 100644
+--- a/src/string.c
++++ b/src/string.c
+@@ -23,6 +23,6 @@ int main(void)
+       
+    printf("string lenght of %s = %d\n", s[i], my_strlen(s[i]));
+    printf("Hello");
+-
++   printf("Hi");
+    return 0;
+ } 
+-- 
+2.18.0.windows.1
+
